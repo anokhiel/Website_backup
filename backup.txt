@@ -1,6 +1,6 @@
-#  ≈сли уже есть архив бакапа через Cron на сервере перемещаем в область видимости дл€ ftp
+rem   ≈сли уже есть архив бакапа через Cron на сервере перемещаем в область видимости дл€ ftp
 mv ../var/backups/root/* ../var/path/to/reachable/backups
-# ≈сли архива нет, архивируем нужную папку
-#cd ../var/www/path/to/website/files/tobearchived
-#tar -zcvf dataar.tar.gz backupfolder/ 	
+rem  ≈сли архива нет, архивируем нужную папку
+rem cd ../var/www/path/to/website/files/tobearchived
+rem tar -zcvf dataar.tar.gz backupfolder/ 	
 chmod 775 ../var/path/to/reachable/backups/*
