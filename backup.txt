@@ -1,6 +1,6 @@
-rem   Если уже есть архив бакапа через Cron на сервере перемещаем в область видимости для ftp
+rem   Р•СЃР»Рё СѓР¶Рµ РµСЃС‚СЊ Р°СЂС…РёРІ Р±Р°РєР°РїР° С‡РµСЂРµР· Cron РЅР° СЃРµСЂРІРµСЂРµ РїРµСЂРµРјРµС‰Р°РµРј РІ РѕР±Р»Р°СЃС‚СЊ РІРёРґРёРјРѕСЃС‚Рё РґР»СЏ ftp
 mv ../var/backups/root/* ../var/path/to/reachable/backups
-rem  Если архива нет, архивируем нужную папку
+rem  Р•СЃР»Рё Р°СЂС…РёРІР° РЅРµС‚, Р°СЂС…РёРІРёСЂСѓРµРј РЅСѓР¶РЅСѓСЋ РїР°РїРєСѓ
 rem cd ../var/www/path/to/website/files/tobearchived
 rem tar -zcvf dataar.tar.gz backupfolder/ 	
 chmod 775 ../var/path/to/reachable/backups/*
