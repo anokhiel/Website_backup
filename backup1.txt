@@ -1,2 +1,2 @@
-rem  Стираем файл архива
+rem  РЎС‚РёСЂР°РµРј С„Р°Р№Р» Р°СЂС…РёРІР°
 rm  ../var/path/to/reachable/backups*	
